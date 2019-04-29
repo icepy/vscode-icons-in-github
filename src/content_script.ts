@@ -10,6 +10,5 @@ if (repoPjax) {
   const config = { attributes: true, childList: true, characterData: true }
   observer.observe(repoPjax!, config);
 }
-setTimeout(() => {
-  run();
-}, 500);
+
+run();
